@@ -1,0 +1,61 @@
+body.dark{
+    background-color: rgba(37,39,60);
+}
+
+.heading.dark{
+    color:white;
+}
+
+.heads.dark{
+    color: white;
+}
+
+.logo.dark{
+    color:white;
+}
+
+.calculator.dark{
+    outline: 2px solid rgba(228,229,241);
+}
+
+.display.dark{
+    outline: 2px solid rgba(228,229,241);
+}
+
+.cls.dark{
+    outline: 2px solid rgba(228,229,241);
+    color:white
+}
+
+.cls.dark:hover{
+    outline: 2px solid rgba(197 198 211);
+    background-color: rgba(197 198 211);
+    color: black;
+}
+
+.inputbox.dark{
+    outline: 2px solid rgba(228,229,241);
+}
+
+.row.dark{
+    outline: 2px solid rgba(202,205,232);
+    color: white;
+}
+.row.dark:hover{
+    outline: 2px solid rgba(119,122,146);
+}
+
+.act.dark{
+    outline: 2px solid rgba(197 198 211);
+    background-color: rgb(197 198 211);
+    color: black;
+}
+
+.act.dark:hover{
+    outline: 2px solid rgba(119,122,146); 
+}
+
+.thm.dark{
+    color:white;
+    /* font-size: 15px; */
+}

@@ -12,27 +12,53 @@ body {
 }
 
 
-.heading{
+.heading {
     display: flex;
     flex-direction: column;
     font-size: 40px;
+    color: black;
     justify-content: center;
     align-items: center;
 }
-.heading p{
+
+.heads{
     font-size: 20px;
     margin-top: -1px;
+    color: black;
+    text-decoration: none;
 }
-.socials i{
+
+.logo{
     /* margin-top: -1; */
     color: black;
+    margin-right: 5px;
+    margin-left: 5px;
+    text-decoration: none;
+    display: inline-block;
+    /* gap:50px; */
+    transition: transform 0.25s ease-in-out;
+}
+
+.socials i:hover {
+    transform: scale(1.2);
+}
+
+.troll {
+    display: inline-block;
+    background-color: transparent;
+    border: none;
+    color: black;
+    text-decoration: none;
+    /* font-size: 15px; */
+}
+.troll:hover{
     text-decoration: none;
 }
 .calculator {
     display: flex;
     justify-content: center;
     align-items: center;
-    outline: 2px solid rgb(218, 208, 208);
+    outline: 2px solid rgb(147, 148, 165);
     height: 370px;
     width: 515px;
     border-radius: 5px;
@@ -56,45 +82,50 @@ body {
     /* padding-top: 10px; */
     gap: 10px;
 }
-.display{
-    outline: 2px solid rgb(218, 208, 208);
+
+.display {
+    outline: 2px solid rgb(147, 148, 165);
     height: 100%;
-    width: 100%;      
+    width: 100%;
     border-radius: 5px;
 }
-.displaybox{
+
+.displaybox {
     text-align: right;
     font-family: 'Roboto Condensed', sans-serif;
     height: 95%;
     width: 98%;
     font-size: 40px;
 }
-.cls{
-    outline: 2px solid rgb(218, 208, 208);
+
+.cls {
+    outline: 2px solid rgb(147, 148, 165);
     display: flex;
     justify-content: center;
     border-radius: 5px;
     align-items: center;
     height: 100%;
     width: 100px;
+    color: black;
 }
-.cls:hover{
-    background-color: rgb(147,148,165);
+
+.cls:hover {
+    background-color: rgb(147, 148, 165);
     color: white;
 }
 
 .inputbox {
     display: flex;
-    outline: 2px solid rgb(218, 208, 208);
+    outline: 2px solid rgb(147, 148, 165);
     justify-content: center;
     align-items: center;
     height: 230px;
     border-radius: 5px;
+    font-size: 20px;
     /* padding-bottom: 10px; */
 }
 
-.inputbtns
-{
+.inputbtns {
     display: flex;
     /* background-color: red; */
     justify-content: center;
@@ -106,7 +137,7 @@ body {
     gap: 5px;
 }
 
-.col{
+.col {
     display: flex;
     /* outline: 2px solid rgb(218, 208, 208); */
     justify-content: center;
@@ -117,7 +148,7 @@ body {
     gap: 7px;
 }
 
-.row{
+.row {
     display: flex;
     outline: 2px solid rgb(218, 208, 208);
     justify-content: center;
@@ -128,6 +159,34 @@ body {
     /* gap: 5px; */
 }
 
-.btn:hover{
-    outline: 2px solid rgb(147,148,165);
+.row:hover {
+    outline: 2px solid rgb(147, 148, 165);
 }
+
+.act {
+    background-color: rgb(147, 148, 165);
+    outline: 2px solid rgb(147, 148, 165);
+}
+
+.act:hover {
+    outline: 2px solid rgb(218, 208, 208);
+}
+
+.themetoggle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+    width: 30px;
+    height: 30px;
+    margin-top: 20px;
+}
+.themetoggle i{
+    color: black;   
+    font-size: 25px;
+    transition: transform 0.25s ease-in-out;
+    background-color: rgb(147, 148, 165);
+    padding: 10px 10px 10px 10px;
+    border-radius: 50px;
+}
+
