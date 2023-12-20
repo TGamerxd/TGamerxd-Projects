@@ -1,4 +1,4 @@
-const targetDate = new Date('December 26, 2023 14:00:00 GMT');
+const targetDate = new Date('December 22, 2023 14:00:00 GMT');
 
   function updateCountdown() {
     const now = new Date().getTime();
@@ -12,7 +12,7 @@ const targetDate = new Date('December 26, 2023 14:00:00 GMT');
 
       document.getElementById('countdown').innerHTML = `${days}D ${hours}H ${minutes}M ${seconds}S`;
     } else {
-      document.getElementById('countdown').innerHTML = 'Time\'s up!';
+      document.getElementById('countdown').innerHTML = 'THE REVEALS HAVE STARTED';
     }
   }
 
